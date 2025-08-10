@@ -1,18 +1,25 @@
+sa@Ss-iMac ~ % curl -L "https://raw.githubusercontent.com/trustchainx-global/trustchainx-assets/main/trcx-main.json" -o ~/Desktop/trcx-main.raw.json
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   551  100   551    0     0   9341      0 --:--:-- --:--:-- --:--:--  9500
+sa@Ss-iMac ~ % LC_ALL=C tr -cd '\11\12\15\40-\176' < ~/Desktop/trcx-main.raw.json > ~/Desktop/trcx-main.json
+sa@Ss-iMac ~ % python3 -m json.tool ~/Desktop/trcx-main.json
 {
-  "name": "TrustChainX",
-  "symbol": "TRCX",
-  "description": "TrustChainX Devnet token for testing.",
-  "image": "https://raw.githubusercontent.com/trustchainx-global/trustchainx-assets/main/logo-256.png",
-  "extensions": {
-    "website": "https://example.com"
-  },
-  "properties": {
-    "category": "image",
-    "files": [
-      {
-        "uri": "https://raw.githubusercontent.com/trustchainx-global/trustchainx-assets/main/logo-256.png",
-        "type": "image/png"
-      }
-    ]
-  }
+    "name": "TrustChainX",
+    "symbol": "TRCX",
+    "description": "TrustChainX Devnet token for testing.",
+    "image": "https://raw.githubusercontent.com/trustchainx-global/trustchainx-assets/main/logo-256.png",
+    "extensions": {
+        "website": "https://example.com"
+    },
+    "properties": {
+        "category": "image",
+        "files": [
+            {
+                "uri": "https://raw.githubusercontent.com/trustchainx-global/trustchainx-assets/main/logo-256.png",
+                "type": "image/png"
+            }
+        ]
+    }
 }
+sa@Ss-iMac ~ % 
