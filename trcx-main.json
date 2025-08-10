@@ -1,0 +1,18 @@
+{
+  "name": "TrustChainX",
+  "symbol": "TRCX",
+  "description": "TrustChainX Devnet token for testing.",
+  "image": "https://raw.githubusercontent.com/trustchainx-global/trustchainx-assets/main/logo.png",
+  "extensions": {
+    "website": "https://example.com"
+  },
+  "properties": {
+    "category": "image",
+    "files": [
+      {
+        "uri": "https://raw.githubusercontent.com/trustchainx-global/trustchainx-assets/main/logo.png",
+        "type": "image/png"
+      }
+    ]
+  }
+}
