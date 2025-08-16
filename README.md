@@ -14,3 +14,5 @@ Public brand & app assets for TrustChainX.
 
 ## Security
 All commits are SSH-signed (Verified).
+### Download
+Get the latest brand kit from the [Releases](../../releases/latest).
