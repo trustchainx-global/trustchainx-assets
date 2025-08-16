@@ -1,0 +1,12 @@
+# Default owner for everything in this repo
+* @trustchainx-global
+
+# GitHub metadata
+.github/* @trustchainx-global
+
+# Manifests
+*trcx*.json @trustchainx-global
+
+# Images
+*.png @trustchainx-global
+*.svg @trustchainx-global
