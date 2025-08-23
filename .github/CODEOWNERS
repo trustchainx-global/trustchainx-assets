@@ -1,12 +1,14 @@
-# Default owner for everything in this repo
-* @trustchainx-global
+# Default owners
+* @trustchainx-sec
 
-# GitHub metadata
-.github/* @trustchainx-global
+# Security-sensitive paths
+.github/workflows/* @trustchainx-sec
+.github/*              @trustchainx-sec
+CODEOWNERS             @trustchainx-sec
+SECURITY.md            @trustchainx-sec
+.github/dependabot.yml @trustchainx-sec
+.github/codeql-analysis.yml @trustchainx-sec
 
-# Manifests
-*trcx*.json @trustchainx-global
-
-# Images
-*.png @trustchainx-global
-*.svg @trustchainx-global
+# Docs & readme (optional)
+README.md              @trustchainx-global
+docs/**                @trustchainx-global
